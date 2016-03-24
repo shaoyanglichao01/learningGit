@@ -19,6 +19,7 @@
   self.view.backgroundColor = [UIColor redColor];
   UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
   
+  [self.view addSubview:label];
   // Do any additional setup after loading the view, typically from a nib.
 }
 
